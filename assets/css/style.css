@@ -173,7 +173,7 @@ body {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-    margin: .67em 0; 
+    margin: .67em 0;
     font-size: 2em;
 }
 
@@ -258,7 +258,7 @@ small {
  */
 sub, sup {
     position: relative;
-    vertical-align: baseline; 
+    vertical-align: baseline;
     font-size: 75%;
     line-height: 0;
 }
@@ -326,7 +326,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
-    padding: 0; 
+    padding: 0;
     border-style: none;
 }
 
@@ -464,7 +464,7 @@ html {
     display: -webkit-box;
     display: flex;
     flex-direction: column;
-    height: 100%; 
+    height: 100%;
     font-size: 62.5%;
 
     -webkit-box-orient: vertical;
@@ -483,7 +483,7 @@ body {
     font-size: 14px;
     font-size: 1.4rem;
     font-family: "Noto Sans", Helvetica, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.8; 
+    line-height: 1.8;
 
     f1ex: 1;
     -webkit-box-orient: vertical;
@@ -726,7 +726,7 @@ code {
 }
 
 hr {
-    margin: 20px 0 0; 
+    margin: 20px 0 0;
     height: 4px;
     border: 0;
     background: #E6E6E6;
@@ -816,7 +816,7 @@ hr {
 .feed.grid {
     display: -webkit-box;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -947,7 +947,7 @@ hr {
     display: flex;
     flex-direction: column;
     max-height: calc(100vh - 60px);
-    height: 400px; 
+    height: 150px;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -997,7 +997,7 @@ hr {
 }
 .header .hero .hero-content a {
     color: rgba(255, 255, 255, .7);
-            text-decoration: dotted; 
+            text-decoration: dotted;
 
     -webkit-text-decoration: dotted;
 }
@@ -1033,7 +1033,7 @@ hr {
     text-align: center;
 }
 .author-template .hero .author-image {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     width: 100px;
     height: auto;
     border-radius: 50%;
@@ -1066,14 +1066,14 @@ hr {
 
 .page-template .main {
     margin: 0 auto;
-    width: 100%; 
+    width: 100%;
     background: #FFFFFF;
 }
 .page-template .main .content {
     display: -webkit-box;
     display: flex;
     flex-direction: column;
-    margin: auto; 
+    margin: auto;
     padding: 20px;
     max-width: 800px;
 
@@ -1105,14 +1105,14 @@ hr {
 
 .post-template .main {
     margin: 0 auto;
-    width: 100%; 
+    width: 100%;
     background: #FFFFFF;
 }
 .post-template .main .content {
     display: -webkit-box;
     display: flex;
     flex-direction: column;
-    margin: auto; 
+    margin: auto;
     padding: 20px;
     max-width: 840px;
 
@@ -1252,7 +1252,7 @@ hr {
 }
 
 .kg-card.kg-bookmark-card {
-    position: relative; 
+    position: relative;
     width: 100%;
 }
 .kg-card.kg-bookmark-card .kg-bookmark-container {
@@ -1260,7 +1260,7 @@ hr {
     display: flex;
     flex-direction: column;
     color: #202020;
-    text-decoration: none; 
+    text-decoration: none;
     font-family: inherit;
 
     -webkit-box-orient: vertical;
@@ -1268,7 +1268,7 @@ hr {
 }
 @media (min-width: 550px) {
     .kg-card.kg-bookmark-card .kg-bookmark-container {
-        flex-direction: row-reverse; 
+        flex-direction: row-reverse;
 
         -webkit-box-orient: horizontal;
         -webkit-box-direction: reverse;
@@ -1279,7 +1279,7 @@ hr {
 }
 .kg-card.kg-bookmark-card .kg-bookmark-content {
     padding: 20px;
-    background: #F7F7F7; 
+    background: #F7F7F7;
 
     flex-basis: 0;
     -webkit-box-flex: 999;
@@ -1295,7 +1295,7 @@ hr {
 }
 .kg-card.kg-bookmark-card .kg-bookmark-metadata {
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
     white-space: nowrap;
 
     -webkit-box-align: center;
@@ -1303,7 +1303,7 @@ hr {
 }
 .kg-card.kg-bookmark-card .kg-bookmark-description {
     display: -webkit-box;
-    overflow: hidden; 
+    overflow: hidden;
 
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -1311,7 +1311,7 @@ hr {
 .kg-card.kg-bookmark-card .kg-bookmark-icon {
     display: inline-block;
     margin-right: .5em;
-    margin-bottom: .05em; 
+    margin-bottom: .05em;
     width: 1em;
     height: 1em;
     vertical-align: text-bottom;
@@ -1333,7 +1333,7 @@ hr {
        object-fit: cover;
 }
 .kg-card.kg-bookmark-card .kg-bookmark-author {
-    overflow: hidden; 
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
@@ -1369,7 +1369,7 @@ hr {
     position: relative;
     right: 50%;
     left: 50%;
-    margin-right: -50vw; 
+    margin-right: -50vw;
     margin-left: -50vw;
     max-width: none;
     width: 100vw;
@@ -1386,7 +1386,7 @@ hr {
     display: -webkit-box;
     display: flex;
     flex-direction: column;
-    margin: 0 auto 0; 
+    margin: 0 auto 0;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1415,13 +1415,13 @@ hr {
 }
 
 .kg-card.kg-image-card figcaption {
-    margin-top: 10px; 
+    margin-top: 10px;
     text-align: center;
     font-size: 14px;
 }
 
 .kg-card.kg-width-wide {
-    max-width: 100%; 
+    max-width: 100%;
     width: 100vw;
 }
 @media (min-width: 800px) {
@@ -1490,7 +1490,7 @@ pre code {
 }
 
 .content img {
-    display: block; 
+    display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
@@ -1507,7 +1507,7 @@ pre code {
     background-color: #585858;
     background-position: center;
     background-size: cover;
-    color: white; 
+    color: white;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1727,7 +1727,7 @@ nav.pagination .page-number {
     margin-bottom: 3rem;
     color: rgba(255, 255, 255, .7);
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 1.4rem;
 }
@@ -1739,13 +1739,13 @@ nav.pagination .page-number {
 }
 @media (min-width: 1000px) {
     .content img[src$="#large"], .content img[src$="#full"] {
-        margin-left: -25%; 
+        margin-left: -25%;
         width: 150%;
     }
 }
 @media (min-width: 1400px) {
     .content img[src$="#large"], .content img[src$="#full"] {
-        margin-left: -50%; 
+        margin-left: -50%;
         width: 200%;
     }
 }
