@@ -954,7 +954,7 @@ hr {
 }
 @media (min-width: 400px) {
     .header .hero {
-        height: 180px;
+        height: 210px;
     }
 }
 @media (min-width: 550px) {
